@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.iag.icc</groupId>
   <artifactId>model</artifactId>
-  <version>005</version>
+  <version>006</version>
   <packaging>pom</packaging>
   <name>model</name>
 
@@ -17,9 +17,18 @@
   <!-- Where are we going to distribute the artifact to? -->
   <distributionManagement>
       <repository>
+      </repository>
+      
+      		<repository>
+          <id>release-repository</id>
+          <url>file://D:\\BUILD_INFR\\MAVEN_REPOSITORIES\\RELEASE</url>
+
+      		</repository>
+      		<snapshotRepository>
           <id>snapshot-repository</id>
           <url>file://D:\\BUILD_INFR\\MAVEN_REPOSITORIES\\SNAPSHOT</url>
-      </repository>
+      		</snapshotRepository>
+      
 </distributionManagement>
   
   <build>

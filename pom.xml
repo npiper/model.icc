@@ -8,7 +8,11 @@
   <name>model</name>
 
   <!-- Configuration Management -->
-
+<scm>
+	<connection>scm:git:git@github.com:npiper/icc.model.git</connection>
+	<url>scm:git:git@github.com:npiper/icc.model.git</url>
+	<developerConnection>scm:git:git@github.com:npiper/icc.model.git</developerConnection>
+  </scm>
 
   <!-- Where are we going to distribute the artifact to? -->
   <distributionManagement>
